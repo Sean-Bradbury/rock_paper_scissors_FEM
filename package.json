@@ -1,0 +1,46 @@
+{
+  "name": "rock-paper-scissors-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack-dev-server --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bradbury/rock_paper_scissors_FEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bradbury/rock_paper_scissors_FEM/issues"
+  },
+  "homepage": "https://github.com/Sean-Bradbury/rock_paper_scissors_FEM#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "cli": "^1.0.1",
+    "css-loader": "^6.5.1",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.0.2",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "autoprefixer": "^10.4.0",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {}
+}
